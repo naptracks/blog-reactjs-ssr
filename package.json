@@ -5,5 +5,30 @@
   "main": "index.js",
   "repository": "https://github.com/naptracks/dehef-blog.git",
   "author": "naptracks <cesar.martel9@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev:server": "nodemon --watch build --exec \"node build/bundle.js\"",
+    "dev:build-server": "NODE_ENV=production webpack --mode=development --config webpack.server.js --watch",
+    "dev:build-client": "NODE_ENV=production webpack --mode=development --config webpack.client.js --watch",
+    "dev": "npm-run-all --parallel dev:*"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "express": "^4.17.3",
+    "npm-run-all": "^4.1.5",
+    "path": "^0.12.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-merge": "^5.8.0",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
