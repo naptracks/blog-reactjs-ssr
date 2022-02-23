@@ -1,0 +1,9 @@
+{
+  "name": "dehef-blog",
+  "version": "1.0.0",
+  "description": "blog",
+  "main": "index.js",
+  "repository": "https://github.com/naptracks/dehef-blog.git",
+  "author": "naptracks <cesar.martel9@gmail.com>",
+  "license": "MIT"
+}
