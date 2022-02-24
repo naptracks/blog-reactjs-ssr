@@ -10,33 +10,13 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/client/components/App.js":
-/*!**************************************!*\
-  !*** ./src/client/components/App.js ***!
-  \**************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\n\nvar App = function App() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", null, \"Welcome\");\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (App);\n\n//# sourceURL=webpack://dehef-blog/./src/client/components/App.js?");
-
-/***/ }),
-
-/***/ "./src/client/helpers/renderer.js":
-/*!****************************************!*\
-  !*** ./src/client/helpers/renderer.js ***!
-  \****************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_dom_server__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom/server */ \"react-dom/server\");\n/* harmony import */ var react_dom_server__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom_server__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _components_App__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/App */ \"./src/client/components/App.js\");\n\n\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (function (req, res) {\n  var content = (0,react_dom_server__WEBPACK_IMPORTED_MODULE_1__.renderToString)( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_App__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null));\n  return \"\\n            <!Doctype html>\\n    <html lang=\\\"fr\\\">\\n        <head>\\n            <title>Dehef Blog</title>\\n        </head>\\n        <body>\\n            <div id=\\\"root\\\">\".concat(content, \"</div>\\n            <script src=\\\"bundle.js\\\"></script>\\n        </body>\\n    </html>\\n    \");\n});\n\n//# sourceURL=webpack://dehef-blog/./src/client/helpers/renderer.js?");
-
-/***/ }),
-
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var express__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! express */ \"express\");\n/* harmony import */ var express__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(express__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _client_helpers_renderer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./client/helpers/renderer */ \"./src/client/helpers/renderer.js\");\n\n\nvar PORT = process.env.PORT || 3000;\nvar app = express__WEBPACK_IMPORTED_MODULE_0___default()();\napp.use(express__WEBPACK_IMPORTED_MODULE_0___default()[\"static\"]('public'));\napp.get('/', function (req, res) {\n  res.send((0,_client_helpers_renderer__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(req));\n});\napp.listen(PORT, function () {\n  console.log(\"Server running on port \".concat(PORT));\n});\n\n//# sourceURL=webpack://dehef-blog/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\nObject(function webpackMissingModule() { var e = new Error(\"Cannot find module 'babel-polyfill'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\n/* harmony import */ var express__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! express */ \"express\");\n/* harmony import */ var express__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(express__WEBPACK_IMPORTED_MODULE_1__);\nObject(function webpackMissingModule() { var e = new Error(\"Cannot find module './client/helpers/renderer'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\nObject(function webpackMissingModule() { var e = new Error(\"Cannot find module './helpers/createStore'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\n\n\n\n\nvar PORT = process.env.PORT || 3000;\nvar app = express__WEBPACK_IMPORTED_MODULE_1___default()();\napp.use(express__WEBPACK_IMPORTED_MODULE_1___default()[\"static\"]('public'));\napp.get('*', function (req, res) {\n  var store = Object(function webpackMissingModule() { var e = new Error(\"Cannot find module './helpers/createStore'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }())();\n  res.send(Object(function webpackMissingModule() { var e = new Error(\"Cannot find module './client/helpers/renderer'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }())(req, store));\n});\napp.listen(PORT, function () {\n  console.log(\"Server running on port \".concat(PORT));\n});\n\n//# sourceURL=webpack://dehef-blog/./src/index.js?");
 
 /***/ }),
 
@@ -47,26 +27,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var expr
 /***/ ((module) => {
 
 module.exports = require("express");
-
-/***/ }),
-
-/***/ "react":
-/*!************************!*\
-  !*** external "react" ***!
-  \************************/
-/***/ ((module) => {
-
-module.exports = require("react");
-
-/***/ }),
-
-/***/ "react-dom/server":
-/*!***********************************!*\
-  !*** external "react-dom/server" ***!
-  \***********************************/
-/***/ ((module) => {
-
-module.exports = require("react-dom/server");
 
 /***/ })
 
