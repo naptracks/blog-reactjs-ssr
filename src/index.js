@@ -1,7 +1,7 @@
 import 'babel-polyfill'
 import express from 'express';
-import renderer from "./client/helpers/renderer";
-import createStore from "./helpers/createStore";
+import renderer from "./helpers/renderer";
+import createStore from './helpers/store';
 
 const PORT = process.env.PORT || 3000;
 const app = express();
