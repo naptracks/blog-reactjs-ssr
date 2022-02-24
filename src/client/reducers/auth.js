@@ -1,5 +1,4 @@
 import {
-    REGISTER_SUCCESS,
     USER_LOADED,
     LOGIN_SUCCESS,
     LOGOUT,
@@ -22,13 +21,6 @@ export default function (state = initialState, action) {
                 isAuthenticated: true,
                 loading: false,
                 user: payload
-            };
-        case REGISTER_SUCCESS:
-            return {
-                ...state,
-                ...payload,
-                isAuthenticated: true,
-                loading: false
             };
         case LOGIN_SUCCESS:
             return {

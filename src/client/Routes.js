@@ -1,8 +1,7 @@
 import 'babel-polyfill'
 import React from "react";
-import {Route} from 'react-router-dom';
-import App from './components/App';
-import Posts from "./components/Posts";
+import App from './components/pages/App';
+import Dashboard from "./components/pages/Dashboard";
 
 export default [
     {
@@ -11,8 +10,10 @@ export default [
         exact: true,
     },
     {
-        path: '/posts',
-        component: Posts
-    }
+        path: '/dashboard',
+        component: Dashboard,
+        exact: true
+    },
+
 ]
 

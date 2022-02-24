@@ -14,10 +14,8 @@ export const REMOVE_COMMENT = 'remove_comment'
 export const FETCH_USERS ='fetch_users'
 
 //AUTH TYPES
-export const REGISTER_SUCCESS = 'register_success';
 export const USER_LOADED = 'user_loaded'
 export const LOGIN_SUCCESS = 'login_success'
 export const LOGOUT = 'logout';
-export const REGISTER_FAIL = 'register_fail'
 export const AUTH_ERROR = 'auth_error'
 export const LOGIN_FAIL = 'login_fail'
