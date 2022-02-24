@@ -1,12 +1,17 @@
 import React from 'react';
+import Login from "../auth/Login";
+import Container from "../layout/Container";
+import Layout from "../layout/Layout";
 
 
 const App = () => {
 
     return (
-        <div>
-            <h1 className={"title"}>Hello</h1>
-        </div>
+        <Layout>
+            <Container center>
+                <Login/>
+            </Container>
+        </Layout>
     );
 };
 

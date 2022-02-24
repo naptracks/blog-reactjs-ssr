@@ -2,97 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ac4a6ce-d574-43fc-a20c-4919dee17c78" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/client/components/layout/Navbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/components/pages/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/components/pages/Dashboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/components/post/CommentForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/components/post/Post.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/components/posts/Posts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/utils/setAuthToken.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/components/auth/Login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/components/layout/Container.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/components/layout/Layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/components/ui/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/components/ui/Navbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/utils/Aux.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/json5" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/json5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.yarn-integrity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/build-info.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/build-info.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/cjs/react-jsx-dev-runtime.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/cjs/react-jsx-dev-runtime.development.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/cjs/react-jsx-dev-runtime.production.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/cjs/react-jsx-dev-runtime.production.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/cjs/react-jsx-dev-runtime.profiling.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/cjs/react-jsx-runtime.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/cjs/react-jsx-runtime.development.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/cjs/react-jsx-runtime.production.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/cjs/react-jsx-runtime.production.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/cjs/react-jsx-runtime.profiling.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/cjs/react.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/cjs/react.development.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/cjs/react.production.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/cjs/react.production.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/umd/react.development.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/umd/react.development.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/umd/react.production.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/umd/react.production.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react/umd/react.profiling.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/react/umd/react.profiling.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/dist/source-map.debug.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/dist/source-map.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/dist/source-map.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/dist/source-map.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/lib/array-set.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/lib/base64-vlq.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/lib/base64.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/lib/binary-search.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/lib/mapping-list.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/lib/quick-sort.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/lib/source-map-consumer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/lib/source-map-generator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/lib/source-node.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/lib/util.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/source-map.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map-support/node_modules/source-map/source-map.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/source-map/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map/dist/source-map.debug.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/source-map/dist/source-map.debug.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map/dist/source-map.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/source-map/dist/source-map.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map/dist/source-map.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/source-map/dist/source-map.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map/dist/source-map.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/source-map/dist/source-map.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map/lib/source-map-consumer.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/source-map/lib/source-map-consumer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map/lib/source-map-generator.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/source-map/lib/source-map-generator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map/lib/source-node.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/source-map/lib/source-node.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map/lib/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/source-map/lib/util.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/source-map/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/source-map/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/source-map/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/source-map/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/source-map/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/source-map/dist/source-map.debug.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/source-map/dist/source-map.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/source-map/dist/source-map.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/source-map/dist/source-map.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/source-map/lib/array-set.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/source-map/lib/base64-vlq.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/source-map/lib/base64.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/source-map/lib/binary-search.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/source-map/lib/mapping-list.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/source-map/lib/quick-sort.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/source-map/lib/source-map-consumer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/source-map/lib/source-map-generator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/source-map/lib/source-node.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/source-map/lib/util.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/source-map/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/source-map/source-map.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/terser-webpack-plugin/node_modules/source-map/source-map.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/Routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/actions/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/actions/auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/actions/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/actions/types.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/client.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/components/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/components/Posts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/reducers/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/reducers/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/components/layout/Navbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/components/pages/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/components/pages/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/components/pages/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/components/pages/Dashboard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/helpers/renderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/renderer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/helpers/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.base.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.client.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.server.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -116,6 +39,9 @@
     <setting file="file://$PROJECT_DIR$/src/client/Routes.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/index.js" root0="SKIP_INSPECTION" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="25Vr6zWtkuil9H82W7Bi7YLWrHx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -126,13 +52,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="add_unversioned_files" value="$PROJECT_DIR$/build/styles/dashboard.css&#10;/Users/macbook/Desktop/dehef-blog/build/styles.css" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/build/styles/dashboard.css&#10;/Users/macbook/Desktop/dehef-blog/build/styles.css&#10;/Users/macbook/Desktop/dehef-blog/build/index.css" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/build" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -140,11 +67,11 @@
       <recent name="$PROJECT_DIR$/build" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/client/components/ui" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/build" />
       <recent name="$PROJECT_DIR$/styles" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/client" />
     </key>
   </component>
   <component name="RunManager" selected="npm.dev:server">
@@ -200,6 +127,7 @@
       <workItem from="1645631557821" duration="32000" />
       <workItem from="1645631600091" duration="473000" />
       <workItem from="1645632101817" duration="703000" />
+      <workItem from="1645727773096" duration="5109000" />
     </task>
     <servers />
   </component>

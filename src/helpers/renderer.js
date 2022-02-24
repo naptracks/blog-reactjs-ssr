@@ -23,13 +23,14 @@ export default (req, store) => {
         <head>
             <meta charset="utf-8" />
             <link rel="icon" href="favicon.ico" />
-             <link rel="stylesheet" type="text/css" href="index.css">
-             <link rel="stylesheet" type="text/css" href="dashboard.css">
-             <link rel="stylesheet" type="text/css" href="styles.css">
+            <link rel="stylesheet" type="text/css" href="index.css">
+            <link rel="stylesheet" type="text/css" href="dashboard.css">
+            <link rel="stylesheet" type="text/css" href="styles.css">
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <title>Dehef Blog</title>
         </head>
         <body>
+
             <div id="root">${content}</div>
             <script src="bundle.js"></script>
         </body>
