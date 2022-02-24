@@ -8,6 +8,7 @@
       <change afterPath="$PROJECT_DIR$/src/client/components/post/CommentForm.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/client/components/post/Post.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/client/components/posts/Posts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/utils/setAuthToken.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
