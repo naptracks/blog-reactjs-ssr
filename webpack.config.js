@@ -1,6 +1,10 @@
 const path = require('path');
 const webpackNodeExternals = require("webpack-node-externals");
 
+
+// get client.js and index.js in entry
+// and output a build folder in develop mode
+
 module.exports = {
     mode: 'development',
     entry: {

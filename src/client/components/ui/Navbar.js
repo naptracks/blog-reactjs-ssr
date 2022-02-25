@@ -1,5 +1,9 @@
 import React from "react";
 
+
+// COMPONENT: <Navbar/>
+// Consume by <Layout/>
+
 const Navbar = () => {
 
     const fakeLinks = ['new', 'for him', 'for her', 'home', 'gifts', 'sale', 'journal']

@@ -3,8 +3,23 @@
   <component name="ChangeListManager">
     <list default="true" id="4ac4a6ce-d574-43fc-a20c-4919dee17c78" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.yarn-integrity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/actions/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/actions/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/components/auth/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/components/auth/Login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/client/components/layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/components/layout/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/components/pages/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/components/pages/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/components/pages/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/components/pages/Dashboard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/client/components/ui/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/components/ui/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/reducers/comments.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/reducers/comments.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/utils/Aux.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/utils/Aux.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/utils/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/utils/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/renderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/renderer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +55,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="add_unversioned_files" value="$PROJECT_DIR$/build/styles/dashboard.css&#10;/Users/macbook/Desktop/dehef-blog/build/styles.css&#10;/Users/macbook/Desktop/dehef-blog/build/index.css&#10;/Users/macbook/Desktop/dehef-blog/build/logo.png" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/build/styles/dashboard.css&#10;/Users/macbook/Desktop/dehef-blog/build/styles.css&#10;/Users/macbook/Desktop/dehef-blog/build/index.css&#10;/Users/macbook/Desktop/dehef-blog/build/logo.png&#10;/Users/macbook/Desktop/dehef-blog/build/client.js" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/build" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -56,10 +71,10 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/build" />
-      <recent name="$PROJECT_DIR$/src/client/components/ui" />
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/styles" />
+      <recent name="$PROJECT_DIR$/build/assets" />
+      <recent name="$PROJECT_DIR$/build/styles" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/client/components/ui" />
     </key>
   </component>
   <component name="RunManager" selected="npm.dev:server">
@@ -116,7 +131,9 @@
       <workItem from="1645631600091" duration="473000" />
       <workItem from="1645632101817" duration="703000" />
       <workItem from="1645727773096" duration="9719000" />
-      <workItem from="1645738171493" duration="335000" />
+      <workItem from="1645738171493" duration="1061000" />
+      <workItem from="1645739600113" duration="867000" />
+      <workItem from="1645741744924" duration="6369000" />
     </task>
     <servers />
   </component>

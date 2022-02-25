@@ -1,7 +1,7 @@
 import axios from 'axios';
 import {LOGOUT} from "../actions/types";
 
-
+// create axios model
 const api = axios.create({
     baseURL: 'https://jsonplaceholder.typicode.com/',
     headers: {

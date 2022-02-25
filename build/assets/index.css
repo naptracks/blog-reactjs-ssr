@@ -1,0 +1,94 @@
+/**************** Global Styles ****************/
+
+:root {
+    /*colors*/
+    --lightgray-color: #e8e8e8;
+    --orange-color: #E46B3B;
+    --dark-font-color: #1E1E1E;
+    --gray-font-color: #D8DAD9;
+
+    /*global*/
+    --height-of-navbar: 11rem
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+
+h4,h3,h2,h1 {
+    color: var(--dark-font-color)
+}
+
+
+/* Padding */
+.p {
+    padding: 0.5rem;
+}
+.p-1 {
+    padding: 1rem;
+}
+.p-2 {
+    padding: 2rem;
+}
+.p-3 {
+    padding: 3rem;
+}
+.py {
+    padding: 0.5rem 0;
+}
+.py-1 {
+    padding: 1rem 0;
+}
+.py-2 {
+    padding: 2rem 0;
+}
+.py-3 {
+    padding: 3rem 0;
+}
+
+/* Margin */
+.m {
+    margin: 0.5rem;
+}
+.m-1 {
+    margin: 1rem;
+}
+.m-2 {
+    margin: 2rem;
+}
+.m-3 {
+    margin: 3rem;
+}
+.my {
+    margin: 0.5rem 0;
+}
+.my-1 {
+    margin: 1rem 0;
+}
+.my-2 {
+    margin: 2rem 0;
+}
+.my-3 {
+    margin: 3rem 0;
+}
+
+/* Center */
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

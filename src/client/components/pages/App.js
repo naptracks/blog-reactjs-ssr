@@ -1,16 +1,16 @@
 import React from 'react';
 import Login from "../auth/Login";
-import Container from "../layout/Container";
 import Layout from "../layout/Layout";
 
+// App.js is the home page
+// route = '/'
+// You can log in with Auth0 connection (Google, Facebook)
 
 const App = () => {
 
     return (
         <Layout>
-            <Container center>
                 <Login/>
-            </Container>
         </Layout>
     );
 };
