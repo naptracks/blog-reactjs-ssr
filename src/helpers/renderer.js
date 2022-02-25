@@ -8,7 +8,7 @@ import {renderRoutes} from "react-router-config";
 
 export default (req, store) => {
 
-    // content goes to div# inside the html template
+    // content goes to div#root inside the html template
     // which is sent to the server (index.js)
     const content = renderToString(
         <Provider store={store}>
@@ -29,6 +29,8 @@ export default (req, store) => {
             <link rel="stylesheet" type="text/css" href="assets/index.css">
             <link rel="stylesheet" type="text/css" href="assets/dashboard.css">
             <link rel="stylesheet" type="text/css" href="assets/styles.css">
+            <link rel="stylesheet" type="text/css" href="assets/stylesTablet.css">
+            <link rel="stylesheet" type="text/css" href="assets/stylesDesktop.css">
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <title>Dehef Blog</title>
         </head>

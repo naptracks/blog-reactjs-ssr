@@ -16,7 +16,7 @@
 .container {
     margin-left: auto;
     margin-right: auto;
-    min-height: calc(100vh - var(--height-of-navbar));
+    min-height: calc(100vh - 12.5rem);
     display: flex;
     justify-content: center;
 }
@@ -36,9 +36,7 @@
 
 .navbar-container {
     width: 100%;
-    height:  var(--height-of-navbar);
 }
-
 .navbar {
     height: 8.5rem;
     display: flex;
@@ -46,21 +44,36 @@
     align-items: center;
     padding: 0 6rem;
     border-bottom: solid 1px var(--lightgray-color) ;
+}
 
+
+.left-side-navbar-container {
+    display: none;
+}
+
+.logo-container {
+    display: flex;
+    min-width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container h4, img {
+    cursor: pointer;
+}
+
+.right-side-navbar-container {
+    display: none;
 }
 
 .fake-links-container {
-    margin: auto;
-    width: 50%;
-    height: 4rem;
+    display: none;
 }
 
-.fake-link {
-    margin: auto;
-}
-/*.fake-link:hover {*/
-/*    cursor: grab;*/
-/*}*/
+
+
+
+
 
 
 /* Footer.js */

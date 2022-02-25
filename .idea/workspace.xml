@@ -3,22 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="4ac4a6ce-d574-43fc-a20c-4919dee17c78" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/assets/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/client.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.yarn-integrity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/actions/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/actions/users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/client.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/components/auth/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/components/auth/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/components/layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/components/layout/Layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/components/pages/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/components/pages/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/components/pages/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/components/pages/Dashboard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/client/components/ui/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/components/ui/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/reducers/comments.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/reducers/comments.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/utils/Aux.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/utils/Aux.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/utils/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/utils/api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/helpers/renderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/renderer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -134,6 +126,7 @@
       <workItem from="1645738171493" duration="1061000" />
       <workItem from="1645739600113" duration="867000" />
       <workItem from="1645741744924" duration="6369000" />
+      <workItem from="1645789753436" duration="5430000" />
     </task>
     <servers />
   </component>
